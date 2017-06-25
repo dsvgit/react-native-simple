@@ -13,7 +13,7 @@
 3. open project in expo
 4. run VirtualBox
 5. run genymotion
-6. in expo Device -> Open in Android
+6. in expo Device -> Open on Android
 
 ## get apk
 1. exp build:android
