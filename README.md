@@ -2,6 +2,7 @@
 - https://expo.io/
 - https://www.genymotion.com/
 - VirtualBox - install with genymotion
+- Android Debug Bridge https://developer.android.com/studio/command-line/adb.html#howadbworks, add to PATH system variable path to 'paltform-tools' directory
 
 ## development:
 1. npm i
