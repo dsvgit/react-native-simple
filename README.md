@@ -2,7 +2,11 @@
 - https://expo.io/
 - https://www.genymotion.com/
 - VirtualBox - install with genymotion
-- Android Debug Bridge https://developer.android.com/studio/command-line/adb.html, add to PATH system variable path to 'paltform-tools' directory
+- Android Debug Bridge https://developer.android.com/studio/command-line/adb.html
+
+## some settings
+- add to PATH system variable path to 'paltform-tools' directory (Android Debug Bridge)
+- in expo choose Host -> LAN
 
 ## development:
 1. npm i
