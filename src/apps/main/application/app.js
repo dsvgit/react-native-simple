@@ -1,8 +1,7 @@
-import { StyleSheet, Text, View, TextInput } from 'react-native';
-
 import _ from 'lodash';
 import React, { Component as C } from 'react';
 import { Provider } from 'react-redux';
+import { StyleSheet, Text, View, TextInput } from 'react-native';
 
 import store from './store';
 import Dashboard from '../application/children/dashboard/components/main';
