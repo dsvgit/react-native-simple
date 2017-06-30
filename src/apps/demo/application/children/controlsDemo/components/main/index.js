@@ -50,18 +50,21 @@ let MainComponent = props => {
                    onChangeText={value => changeField({ name: 'name', value })}
                    value={name} />
       </Card>
-      <Text>Switch: </Text>
-      <View>
-        <Switch style={{width: 50}}
-                value={subscribe}
-                onValueChange={value => changeField({ name: 'subscribe', value })} />
-      </View>
-      <Text>Date: </Text>
-      <DateTimePicker mode="date" format="YYYY-MM-DD" />
-      <Text>Time: </Text>
-      <DateTimePicker mode="time" format="h:mm:ss a" />
-      <Text>Datetime: </Text>
-      <DateTimePicker mode="datetime" format="YYYY-MM-DD h:mm:ss a" />
+      <Card title="Switch">
+        <View>
+          <Switch style={{width: 50}}
+                  value={subscribe}
+                  onValueChange={value => changeField({ name: 'subscribe', value })} />
+        </View>
+      </Card>
+      <Card title="Date">
+        <Text>Date: </Text>
+        <DateTimePicker mode="date" format="YYYY-MM-DD" />
+        <Text>Time: </Text>
+        <DateTimePicker mode="time" format="h:mm:ss a" />
+        <Text>Datetime: </Text>
+        <DateTimePicker mode="datetime" format="YYYY-MM-DD h:mm:ss a" />
+      </Card>
     </View>
   );
 };

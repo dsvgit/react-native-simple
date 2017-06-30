@@ -3,11 +3,12 @@ import { View, Text } from 'react-native';
 import { Button } from 'react-native-elements';
 
 import { navigate } from '../../../../navigation';
+import { toggleDrawer } from '../../../../drawer';
 import Title from '../../../../../components/title/main';
 
 export default props => {
   let onPress = () => {
-    navigate({ routeName: 'ControlsDemo' });
+    toggleDrawer({ open: true });
   }
 
   return (
